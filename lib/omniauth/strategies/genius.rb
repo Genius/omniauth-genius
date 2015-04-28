@@ -7,7 +7,7 @@ module OmniAuth
       option :name, 'genius'
 
       option :client_options, {
-        site: Rails.env.production? ? 'https://api.genius.com' : 'http://api.g.dev'
+        site: 'https://api.genius.com'
       }
 
       uid do
