@@ -7,7 +7,7 @@ module OmniAuth
       option :name, 'genius'
 
       option :client_options, {
-        site: ENV.fetch('GENIUS_SITE', 'https://api.genius.com')
+        site: 'https://api.genius.com'
       }
 
       uid do
