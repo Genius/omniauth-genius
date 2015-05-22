@@ -20,3 +20,8 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :genius, ENV['GENIUS_CLIENT_ID'], ENV['GENIUS_CLIENT_SECRET']
 end
 ```
+
+## Helpful Links
+
+* [Documentation](https://docs.genius.com)
+* [API Clients](http://genius.com/api-clients)
