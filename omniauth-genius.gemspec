@@ -4,6 +4,7 @@ require 'omniauth-genius/version'
 
 Gem::Specification.new do |gem|
   gem.name ='omniauth-genius'
+  gem.authors = ['john@genius.com']
   gem.version = OmniAuth::Genius::VERSION
   gem.summary = 'OmniAuth Strategy for Genius'
 
